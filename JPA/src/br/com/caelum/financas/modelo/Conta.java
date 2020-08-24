@@ -3,6 +3,7 @@ package br.com.caelum.financas.modelo;
 import java.util.List;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -19,7 +20,7 @@ public class Conta {
 	private String banco;
 	private String agencia;
 	
-	@OneToMany(mappedBy = "conta")
+	@OneToMany(mappedBy = "conta",fetch = FetchType.EAGER)//Carrega antecipadamente os mapeamentos do JPA
 	private List<Movimentacao> movimentacoes;
 	
 	public Integer getId() {

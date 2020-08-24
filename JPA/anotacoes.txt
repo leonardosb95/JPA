@@ -5,4 +5,34 @@ no mundo relacional
 	relacionamento unico e bidirecional
 		duas pontas
 		ele cria uma tabela com os dois relacionamentos
+
+
+---------Aula02-Lidando com queries N+1----------------------------------------------------
+
+por padrão na jpa
+	os mapeiamentos toMany tem um carregamento preguiçoso
+		lazyloading
+			são carregados quando usado
+
+FetchType EAGER
+	carregar os mapeamentos antecipadamente
+	fetch=FechType.EAGER
+		depois que ele carrega tudo ele imprimi
+		acontece por padrão para relacionamentos toOne
+N+1
+	para cada movimentacao da conta ele faz uma query para buscar
+	acontece quando disparamos queries selects
+		para preencher os relacionamentos
+	
+	
+Usando Join Fetch
+	dispara apenas uma query
+	faz o inner join
+		na coluna que relaciona as duas tabelas
+		só traz registros que estão relacionados as duas tabelas
+			como a conta do Leonardo não tem movimentação, ele não traz
+	left join
+		ele traz todas as contas do lado esquerdo
+		indenpente dos registros do lado direito		
+					
 		

@@ -52,6 +52,7 @@ public class Conta {
 	public void setAgencia(String agencia) {
 		this.agencia = agencia;
 	}
+	
 	public List<Movimentacao> getMovimentacoes() {
 		return movimentacoes;
 	}

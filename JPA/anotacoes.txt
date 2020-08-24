@@ -1,0 +1,8 @@
+-------------Aula 01- Relacionamentos bidirecionais----------------------------------------
+
+no mundo relacional
+	precisamos evidênciar os relacionamentos de ponta a ponta com mappedBy
+	relacionamento unico e bidirecional
+		duas pontas
+		ele cria uma tabela com os dois relacionamentos
+		

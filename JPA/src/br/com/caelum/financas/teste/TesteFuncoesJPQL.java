@@ -1,16 +1,10 @@
 package br.com.caelum.financas.teste;
 
-import java.math.BigDecimal;
 import java.util.List;
-
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import javax.persistence.TypedQuery;
 
 import br.com.caelum.financas.dao.MovimentacaoDao;
 import br.com.caelum.financas.modelo.Conta;
 import br.com.caelum.financas.modelo.TipoMovimentacao;
-import br.com.caelum.financas.util.JPAUtil;
 
 public class TesteFuncoesJPQL {
 

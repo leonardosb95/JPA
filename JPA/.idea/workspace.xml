@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Categoria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Cliente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Conta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Movimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/Movimentacao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/TipoMovimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/modelo/TipoMovimentacao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/PopulaMovimentacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/PopulaMovimentacao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TestaContaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TestaContaCliente.class" afterDir="false" />
@@ -22,17 +21,17 @@
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteFuncoesJPQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteFuncoesJPQL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteJPQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteJPQL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacaoConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacaoConta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacoesComCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacoesComCategoria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacoesPorCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteMovimentacoesPorCategoria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteTodasAsMovimentacoesDasContas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/teste/TesteTodasAsMovimentacoesDasContas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/JPAUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/JPAUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/PopulaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/PopulaConta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/PopulaMovimentacoesComCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/PopulaMovimentacoesComCategoria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/TesteBuscaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/caelum/financas/util/TesteBuscaConta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sqljdbc4.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/financas/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/financas/modelo/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TesteConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TesteConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TesteMovimentacoesPorCategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/financas/teste/TesteMovimentacoesPorCategoria.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestaContaCliente.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestaContaCliente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="689">
+              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="58" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -86,10 +94,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-95" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -100,7 +108,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +136,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,11 +230,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-95" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -237,7 +244,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35139093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -246,6 +253,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -256,6 +264,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/modelo/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/util/JPAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/modelo/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/util/JPAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/modelo/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -312,17 +362,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="689">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/financas/teste/TestaContaCliente.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="493">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="58" />
         </state>
       </provider>
     </entry>

@@ -35,4 +35,29 @@ Usando Join Fetch
 		ele traz todas as contas do lado esquerdo
 		indenpente dos registros do lado direito		
 					
-		
+					
+---------Aula03-Funções da agregação e Group By--------------------------------------------
+sum()
+	retorna a soma dos valores
+	tipo BigDecimal
+
+avg()
+	retorna a média dos valores
+	tipo Double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
